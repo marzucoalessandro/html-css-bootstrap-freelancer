@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bartop{
+  height: 60px;
+}
+
+.blue{
+  background-color: blue;
+}
+.white{
+  color: white;
+}
+
+.bd{
+  border: 1px solid black;
+}
+ .green{
+   background-color: lightgreen;
+
+ }
+ .txt-c{
+   text-align: center;
+ }
+
+ .bd-white{
+   border: 5px solid white;
+ }
+
+ .pd-top20{
+   padding-top: 20px;
+ }
+.mrg-20{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.end{
+  height: 40px;
+  background-color: lightblue;
+}
