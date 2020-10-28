@@ -6,7 +6,7 @@
 
 .text-col{
   color: #2c3e50;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .blue{
@@ -18,7 +18,6 @@
 }
 
 .center{
-  /* height: 300px; */
   background-color: #1abc9c;
 }
 
@@ -62,12 +61,27 @@
   margin-bottom: 20px;
 }
 
+.mr-l{
+  margin-left: 30%;
+}
+
+.mr-r{
+  margin-right: 30%;
+}
+
 .pdb-50{
   padding-bottom: 50px;
 }
 
+.mrgt30{
+  margin-top: 30px;
+}
 .mrg-t55{
   margin-top: 48px;
+}
+
+.pd10{
+  padding-right: 10px;
 }
 
 .end{
