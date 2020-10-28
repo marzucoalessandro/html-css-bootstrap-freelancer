@@ -7,48 +7,73 @@
   <title>Bootstrap</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
 <body>
 
-  <!-- costruisco la navbar -->
-  <nav class="navbar blue navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">start bootstrap</a>
+
+
+  <header id="site_header">
+
+    <!-- costruisco la navbar -->
+    <nav class="navbar blue navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+
+              </button>
+              <a class="navbar-brand upc" href="#">start bootstrap</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+
+              <ul class="nav navbar-nav navbar-right upc">
+                <!-- <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li> -->
+                <li><a href="../navbar-static-top/">portfolio</a></li>
+                <li><a href="../navbar-fixed-top/">about</a></li>
+                <li><a href="../navbar-fixed-top/">contact</a></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!--/.container-fluid -->
+        </nav>
+        <!--/ navbar -->
+
+        <div class="container mrg-t55">
+
+            <div class="center txt-c">
+              <!-- qui dentro abbiamo un img+ h1+logo e p-->
+              <img class="smile-boy"src="img/avataaars.svg" alt="">
+              <h1 class="white title">start bootstrap</h1>
+              <div class="divider txt-c">
+                <div class="square"></div>
+                <i class="white fas fa-star"></i>
+                <div class="square"></div>
+
+              </div>
+
+              <p class="size white mrg-20 pdb-50">Graphic Artist-Web Designer-Illustrator</p>
+
+            </div>
+
           </div>
 
-          <div id="navbar" class="navbar-collapse collapse">
 
-            <ul class="nav navbar-nav navbar-right">
-              <!-- <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li> -->
-              <li><a href="../navbar-static-top/">link</a></li>
-              <li><a href="../navbar-fixed-top/">link</a></li>
-              <li><a href="../navbar-fixed-top/">link</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-      <!--/ navbar -->
 
-  <!-- costruisco header -->
 
-  <header class="green">
 
-    <!-- all'interno container con 3 colonne -->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-offset-3 col-md-6 col-md-offset-3 col-sm-offset-2 col-sm-8  bd">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </div>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
 
   </header>
   <!-- /header -->
