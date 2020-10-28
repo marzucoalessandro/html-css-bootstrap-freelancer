@@ -167,3 +167,8 @@ margin: 10px;
 .pd-10{
   padding: 10px;
 }
+
+.social i:hover{
+  background-color: white;
+  color: black;
+}
