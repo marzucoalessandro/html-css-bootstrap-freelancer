@@ -92,6 +92,16 @@
   background-color: #212529;
 }
 
+.navbar-default .navbar-brand{
+  color: white;
+  font-weight: bold;
+}
+
+#navbar .navbar-nav li a{
+  color: white;
+  font-weight: bold;
+}
+
 .smile-boy{
   height: 250px;
   padding-top: 50px;
@@ -100,6 +110,12 @@
 .bdr-wh{
   border-radius: 50px solid white;
 }
+
+.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
+
 
 .title{
   font-size: 60px;
@@ -139,4 +155,8 @@
 .sm-title{
   font-size: 15px;
   text-transform: uppercase;
+}
+
+.slide:hover {
+  color: #1abc9c;
 }
