@@ -168,7 +168,11 @@ margin: 10px;
   padding: 10px;
 }
 
-.social i:hover{
+.social i :hover{
   background-color: white;
   color: black;
+}
+
+#navbar .navbar-nav a:hover{
+  color: #1abc9c;
 }
