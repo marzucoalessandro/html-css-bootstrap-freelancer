@@ -49,6 +49,10 @@
    border-radius: 10px;
  }
 
+.mglr-5{
+margin: 10px;
+}
+
  .mrb-5{
    margin-bottom: 5px;
  }
@@ -156,7 +160,10 @@
   font-size: 15px;
   text-transform: uppercase;
 }
-
-.slide:hover {
-  color: #1abc9c;
+.social a i{
+  border: 1px solid white;
+  border-radius: 100%;
+}
+.pd-10{
+  padding: 10px;
 }
