@@ -89,13 +89,16 @@
 }
 
 .end{
-  height: 40px;
-  background-color: lightblue;
+  background-color: #212529;
 }
 
 .smile-boy{
   height: 250px;
   padding-top: 50px;
+}
+
+.bdr-wh{
+  border-radius: 50px solid white;
 }
 
 .title{
@@ -131,4 +134,9 @@
 .slide{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.sm-title{
+  font-size: 15px;
+  text-transform: uppercase;
 }
